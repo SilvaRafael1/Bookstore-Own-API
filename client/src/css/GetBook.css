@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgb(25, 118, 210);
+    padding: 7px;
+    width: 1280px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px 7px 0 0;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.grid-item:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-area {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pesq {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.pesq input {
+    font-size: 18px;
+    padding: 5px;
+}
