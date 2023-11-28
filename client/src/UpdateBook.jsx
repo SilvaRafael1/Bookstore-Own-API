@@ -17,6 +17,7 @@ function UpdateBook() {
     const handleSubmit = (data) => client.put(`/${id}`, data).then((responseData) => {
         UpdateBookResponse(responseData.data)
         alert("Livro atualizado com sucesso!")
+        window.location.href = "http://127.0.0.1:5173";
     }).catch((err) => console.log(err));
 
     const validationSchema = Yup.object().shape({

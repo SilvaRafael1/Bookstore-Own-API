@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const client = axios.create({
-    baseURL: 'https://fakerestapi.azurewebsites.net/api/v1/Books'
+    baseURL: 'http://localhost:3000/api/books'
 });
 
 export default client;

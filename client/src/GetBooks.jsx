@@ -17,8 +17,8 @@ function GetBooks() {
             const tituloUpperCase = livro.title.toUpperCase()
             if (tituloUpperCase === pesqUpperCase || pesquisa === "") {
                 return (
-                    <NavLink to={"/books/" + livro.id} className="nav-link" key={livro.id}>
-                        <div className="grid-item" key={livro.id}>
+                    <NavLink to={"/books/" + livro._id} className="nav-link" key={livro._id}>
+                        <div className="grid-item" key={livro._id}>
                             {livro.title}
                         </div>
                     </NavLink>

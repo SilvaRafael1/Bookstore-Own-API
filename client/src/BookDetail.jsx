@@ -21,8 +21,8 @@ function BookDetail() {
                     <p className="num">Número de Páginas: {book.pageCount}</p>
                 </div>
                 <div className="btns">
-                    <NavLink to={"/updateBook/" + book.id} className="nav-link"><button>Atualizar</button></NavLink>
-                    <BookDelete id={book.id} />
+                    <NavLink to={"/updateBook/" + book._id} className="nav-link"><button>Atualizar</button></NavLink>
+                    <BookDelete id={book._id} />
                 </div>
             </div>
         </div>

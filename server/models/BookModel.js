@@ -14,7 +14,7 @@ const BookSchema = new mongoose.Schema({
         required: true,
     },
     excerpt: {
-        type: Number,
+        type: String,
         required: true,
     },
     publishDate: {
